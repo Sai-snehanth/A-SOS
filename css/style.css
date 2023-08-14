@@ -1,0 +1,85 @@
+h1{
+    color: orangered;
+}
+
+body{
+    background: url("/dFABfAi.webp");
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-align: justify;
+    border: 1px solid black ;
+    background-color: rgb(110, 215, 162);
+}
+
+p::first-letter{
+    font-size:3cm;
+}
+
+a:link{
+    color: aquamarine;
+}
+a:visited{
+    color: brown;
+}
+
+a:hover{
+    color: blue;
+}
+
+a:focus{
+    color:deeppink;
+}
+
+a:active{
+    color: red;
+}
+
+
+.regform{
+
+    width:600px;
+    margin:450px auto;
+    background-color: rgba(0,0,0,.5);
+    color: aliceblue;
+    font-size: 30px;
+    border-radius:10px;
+}
+
+.regform h2{
+              text-align: center;
+              color: orange;
+}
+
+.input input{
+
+    width: 100%;
+    font: size 1.5em;;
+    border:1px solid green ;
+    box-shadow:2px;
+    border-radius:8px;
+    box-sizing: border-box;
+    margin:16px 0px 0px 30px;
+}
+
+input:focus{
+
+    background-color: rgb(38, 167, 210);
+}
+
+.btn{
+
+    text-align: center;
+   
+}
+
+button{
+
+    background-color: rgb(6, 221, 6);
+    font-size:50px;
+    color:whitesmoke;
+    margin-top: 20px;
+    padding: 15px 25 px;
+    border-radius: 8px;
+    border: 1px solid rgb(110, 30, 222);
+    
+}
